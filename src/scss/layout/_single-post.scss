@@ -1,0 +1,37 @@
+.single-post {
+	main > article {
+		.entry-title, .entry-meta, .entry-content {
+			background-color: #fff;
+			border: 1px solid #eee;
+		}
+
+		.entry-title {
+			border-bottom: none;
+			margin-bottom: 0;
+			padding: 20px 20px 10px;
+
+			@media ( min-width: 992px ) {
+				padding: 30px 30px 10px;
+			}
+		}
+
+		.entry-meta {
+			border-top: none;
+			border-bottom: none;
+			margin-bottom: 0;
+			padding: 0 20px 20px;
+
+			@media ( min-width: 992px ) {
+				padding: 0 30px 30px;
+			}
+		}
+
+		.entry-content {
+			padding: 20px;
+
+			@media ( min-width: 992px ) {
+				padding: 30px;
+			}
+		}
+	}
+}

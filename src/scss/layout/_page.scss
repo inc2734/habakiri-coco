@@ -1,0 +1,37 @@
+/**
+ * .page
+ */
+.page, .error404 {
+	main > article {
+		background-color: #fff;
+		border: 1px solid #eee;
+
+		.entry-content {
+			padding: 20px;
+
+			@media ( min-width: 992px ) {
+				padding: 30px;
+			}
+		}
+	}
+}
+
+/**
+ * .page-template-front-page
+ */
+.page-template-front-page {
+	main > article {
+		.entry-content {
+			background-color: transparent;
+			border: none;
+			padding: 0;
+		}
+	}
+}
+
+/**
+ * .page-template-full-width-fluid
+ */
+.page-template-full-width-fluid #main {
+	margin-bottom: 60px;
+}

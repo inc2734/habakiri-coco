@@ -1,0 +1,39 @@
+# Copyright (C) 2015 Coco - Habakiri design skin
+# This file is distributed under the same license as the Coco - Habakiri design skin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Coco - Habakiri design skin 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/habakiri-coco\n"
+"POT-Creation-Date: 2015-07-18 18:49+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-07-18 18:51+0900\n"
+"Last-Translator: Takashi Kitajima <inc@2inc.org>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja_JP\n"
+"X-Poedit-KeywordsList: _e;__;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Coco - Habakiri design skin"
+msgstr "Coco - Habakiri デザインスキン"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/inc2734/habakiri-coco"
+msgstr "https://github.com/inc2734/habakiri-coco"
+
+#. Description of the plugin/theme
+msgid "Coco is a design skin of Habakiri."
+msgstr "Coco は Habakiri のデザインスキンです。"
+
+#. Author of the plugin/theme
+msgid "Takashi Kitajima"
+msgstr "Takashi Kitajima"
+
+#. Author URI of the plugin/theme
+msgid "http://2inc.org"
+msgstr "http://2inc.org"
