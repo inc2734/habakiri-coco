@@ -20,6 +20,7 @@ Coco is a design skin of Habakiri.
 
 = 1.0.1 =
 * Fixed page style bug.
+* Fixed a sidebar style bug in 1 column page.
 
 = 1.0.0 =
 * Initial Release
