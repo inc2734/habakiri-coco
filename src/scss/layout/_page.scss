@@ -3,10 +3,9 @@
  */
 .page, .error404 {
 	main > article {
-		background-color: #fff;
-		border: 1px solid #eee;
-
 		.entry-content {
+			background-color: #fff;
+			border: 1px solid #eee;
 			padding: 20px;
 
 			@media ( min-width: 992px ) {

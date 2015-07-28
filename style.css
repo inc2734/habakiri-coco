@@ -62,14 +62,13 @@ h4 {
 /**
  * .page
  */
-.page main > article, .error404 main > article {
+.page main > article .entry-content, .error404 main > article .entry-content {
   background-color: #fff;
-  border: 1px solid #eee; }
-  .page main > article .entry-content, .error404 main > article .entry-content {
-    padding: 20px; }
-    @media (min-width: 992px) {
-      .page main > article .entry-content, .error404 main > article .entry-content {
-        padding: 30px; } }
+  border: 1px solid #eee;
+  padding: 20px; }
+  @media (min-width: 992px) {
+    .page main > article .entry-content, .error404 main > article .entry-content {
+      padding: 30px; } }
 
 /**
  * .page-template-front-page
