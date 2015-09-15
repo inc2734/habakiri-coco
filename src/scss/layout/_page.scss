@@ -1,36 +1,11 @@
 /**
- * .page
- */
-.page, .error404 {
-	main > article {
-		.entry-content {
-			background-color: #fff;
-			border: 1px solid #eee;
-			padding: 20px;
-
-			@media ( min-width: 992px ) {
-				padding: 30px;
-			}
-		}
-	}
-}
-
-/**
  * .page-template-front-page
  */
-.page-template-front-page {
-	main > article {
-		.entry-content {
-			background-color: transparent;
-			border: none;
-			padding: 0;
-		}
+.page-template-front-page,
+.page-template-rich-front-page {
+	.entry__content {
+		background-color: transparent;
+		border: none;
+		padding: 0;
 	}
-}
-
-/**
- * .page-template-full-width-fluid
- */
-.page-template-full-width-fluid #main {
-	margin-bottom: 60px;
 }

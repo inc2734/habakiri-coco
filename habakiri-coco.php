@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Coco - Habakiri design skin
  * Plugin URI: https://github.com/inc2734/habakiri-coco
- * Description: Coco is a design skin of Habakiri.
+ * Description: Coco is a design skin of Habakiri. This plugin needs Habakiri 2.0.0 or later.
  * Version: 2.0.0
  * Author: Takashi Kitajima
  * Author URI: http://2inc.org
@@ -39,6 +39,11 @@ class Habakiri_Coco {
 			Habakiri_Coco_Config::NAME,
 			false,
 			basename( dirname( __FILE__ ) ) . '/languages'
+		);
+		
+		add_filter(
+			'habakiri_custom_background_defaults',
+			array( $this, 'habakiri_custom_background_defaults' )
 		);
 	}
 
@@ -91,8 +96,6 @@ class Habakiri_Coco {
 			'dynamic_sidebar_params',
 			array( $this, 'dynamic_sidebar_params' )
 		);
-
-		remove_theme_support( 'custom-background' );
 	}
 
 	/**
@@ -185,16 +188,24 @@ class Habakiri_Coco {
 	 */
 	public function habakiri_theme_mods_defaults( $args ) {
 		return shortcode_atts( $args, array(
-			'page_header_bg_color'   => '#fafafa',
-			'page_header_text_color' => '#333',
-			'header_bg_color'        => '#fafafa',
-			'link_color'             => '#09afdf',
-			'link_hover_color'       => '#0794BD',
-			'gnav_link_hover_color'  => '#0794BD',
-			'footer_bg_color'        => '#0794BD',
-			'footer_text_color'      => '#fff',
-			'footer_link_color'      => '#fff',
+			'page_header_text_color'   => '#333',
+			'header_bg_color'          => '#fafafa',
+			'link_color'               => '#09afdf',
+			'link_hover_color'         => '#0794BD',
+			'gnav_bg_color'            => '#fafafa',
+			'gnav_link_hover_color'    => '#0794BD',
+			'gnav_link_bg_color'       => '#fafafa',
+			'gnav_link_bg_hover_color' => '#fafafa',
+			'footer_bg_color'          => '#0794BD',
+			'footer_text_color'        => '#fff',
+			'footer_link_color'        => '#fff',
 		) );
+	}
+	
+	public function habakiri_custom_background_defaults( $args ) {
+		return array(
+			'default-color' => '#fafafa',
+		);
 	}
 
 	/**

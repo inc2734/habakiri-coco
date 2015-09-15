@@ -1,20 +1,22 @@
-.related-posts {
-	.entries {
-		.hentry {
-			background-color: #fff;
-			border: 1px solid #eee;
-			margin-bottom: 20px;
-			padding: 20px;
+.entries--related-posts {
+	.article--summary {
+		background-color: #fff;
+		border: 1px solid #eee;
+		margin-bottom: 20px;
+		padding: 20px;
 
-			.entry-title, .entry-meta {
-				border: none;
-				padding: 0;
-			}
-
-			@media ( min-width: 992px ) {
-				margin-bottom: 30px;
-				padding: 30px;
-			}
+		@media ( min-width: 992px ) {
+			margin-bottom: 30px;
+			padding: 30px;
 		}
+	}
+	
+	.entry__title, .entry-meta {
+		border: none;
+		padding: 0;
+	}
+	
+	.entry__title {
+		margin-bottom: 20px;
 	}
 }

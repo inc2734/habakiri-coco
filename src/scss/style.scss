@@ -1,19 +1,18 @@
 @import 'content';
 
-#container {
+body {
 	background-color: #fafafa;
 }
 
 .container {
-	max-width: 970px;
+	//max-width: 970px;
 }
 
 @import 'layout/archive';
-@import 'layout/page';
-@import 'layout/single-post';
 @import 'layout/search';
-@import 'layout/sub';
+@import 'layout/article';
+@import 'layout/page';
+@import 'layout/sidebar';
 @import 'layout/comments';
-@import 'layout/footer';
 @import 'module/page-header';
 @import 'module/related-posts';

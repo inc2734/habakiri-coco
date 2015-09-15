@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Coco - Habakiri design skin package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Coco - Habakiri design skin 1.0.0\n"
+"Project-Id-Version: Coco - Habakiri design skin 2.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/habakiri-coco\n"
-"POT-Creation-Date: 2015-07-18 09:48:35+00:00\n"
+"POT-Creation-Date: 2015-09-15 04:16:45+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,8 @@ msgid "https://github.com/inc2734/habakiri-coco"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Coco is a design skin of Habakiri."
+msgid ""
+"Coco is a design skin of Habakiri. This plugin needs Habakiri 2.0.0 or later."
 msgstr ""
 
 #. Author of the plugin/theme

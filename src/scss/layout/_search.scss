@@ -1,15 +1,13 @@
-.search {
-	.entries {
-		.hentry {
-			background-color: #fff;
-			border: 1px solid #eee;
-			margin-bottom: 20px;
-			padding: 20px;
+.entries--search {
+	.article {
+		background-color: #fff;
+		border: 1px solid #eee;
+		margin-bottom: 20px;
+		padding: 20px;
 
-			@media ( min-width: 992px ) {
-				margin-bottom: 30px;
-				padding: 30px;
-			}
+		@media ( min-width: 992px ) {
+			margin-bottom: 30px;
+			padding: 30px;
 		}
 	}
 }

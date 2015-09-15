@@ -9,7 +9,7 @@ License URI: license.txt
 
 == Description ==
 
-Coco is a design skin of Habakiri.
+Coco is a design skin of Habakiri. This plugin needs Habakiri 2.0.0 or later.
 
 == Installation ==
 
