@@ -3,7 +3,7 @@
  * Plugin Name: Coco - Habakiri design skin
  * Plugin URI: https://github.com/inc2734/habakiri-coco
  * Description: Coco is a design skin of Habakiri. This plugin needs Habakiri 2.0.0 or later.
- * Version: 2.0.0
+ * Version: 2.0.1
  * Author: Takashi Kitajima
  * Author URI: http://2inc.org
  * Created : July 17, 2015

@@ -5,6 +5,9 @@
 		overflow: hidden;
 		
 		.article {
+			border-bottom: none;
+			padding-bottom: 0;
+			
 			&:nth-child(3n+1) {
 				clear: both;
 			}
